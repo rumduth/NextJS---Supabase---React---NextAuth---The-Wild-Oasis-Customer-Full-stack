@@ -1,10 +1,9 @@
 import Image from "next/image";
 import About1 from "@/public/about-1.jpg";
-import About2 from "@/public/about-2.jpg";
 import Link from "next/link";
 import { getCabins } from "../_lib/data-service";
 
-export const revalidate = 60 * 60 * 24;
+// export const revalidate = 60 * 60 * 24;
 
 export const metadata = {
   title: "About",
