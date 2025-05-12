@@ -3,8 +3,7 @@ import About1 from "@/public/about-1.jpg";
 import Link from "next/link";
 import { getCabins } from "../_lib/data-service";
 
-// export const revalidate = 60 * 60 * 24;
-
+export const revalidate = 86400;
 export const metadata = {
   title: "About",
 };
